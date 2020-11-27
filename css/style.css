@@ -3553,3 +3553,7 @@ label {
 .header-two .logo{
     padding: 28px 0;
 }
+
+.header-one .logo-area img {
+    max-height: 51px;
+}
