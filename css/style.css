@@ -1049,7 +1049,6 @@ ul.navbar-nav>li>a i {
     border-radius: 3px;
     line-height: normal;
     text-transform: capitalize;
-    color: #fff;
     margin-top: 5px;
 }
 
@@ -3555,10 +3554,24 @@ label {
 }
 
 /* Custom styles */
-.header-one .logo-area img, .footer-logo {
-    max-height: 51px;
-}
-
 .top-bar {
     display: none;
+}
+
+header {
+    background: #f27d33;
+}
+
+.header-one .logo-area {
+    padding: 2px 0;
+}
+
+.header-one .logo-area img, .footer-logo {
+    max-height: 72px;
+}
+
+.header-right {
+    float: right;
+    margin-top: 10px;
+    color: black;
 }
