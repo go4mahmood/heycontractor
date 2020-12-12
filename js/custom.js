@@ -15,6 +15,20 @@ jQuery(function ($) {
 	"use strict";
 
 	/* ----------------------------------------------------------- */
+	/*  Reusable includes
+	/* ----------------------------------------------------------- */
+
+	$(function(){
+		var includes = $('[data-include]');
+		jQuery.each(includes, function(){
+			var file = 'includes/' + $(this).data('include') + '.html';
+			$(this).load(file, function() {
+				$(this).children(':first').unwrap();
+			});
+		});
+	});
+
+	/* ----------------------------------------------------------- */
 	/*  Fixed header
 	/* ----------------------------------------------------------- */
 
@@ -359,12 +373,4 @@ jQuery(function ($) {
 	});
 
 	$('#back-to-top').tooltip('hide');
-
-	$(function(){
-		var includes = $('[data-include]');
-		jQuery.each(includes, function(){
-			var file = 'includes/' + $(this).data('include') + '.html';
-			$(this).load(file);
-		});
-	});
 });
