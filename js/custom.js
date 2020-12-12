@@ -1,12 +1,13 @@
 /*
-	1. Fixed header
-	2. Main slideshow
-	3. Site search
-	4. Owl Carousel
-	5. Video popup
-	6. Counter
-	7. Contact form
-	8. Back to top
+	1. Reusable includes
+	2. Fixed header
+	3. Main slideshow
+	4. Site search
+	5. Owl Carousel
+	6. Video popup
+	7. Counter
+	8. Contact form
+	9. Back to top
   
 */
 
@@ -346,9 +347,6 @@ jQuery(function ($) {
 		return false;
 
 	});
-
-
-
 
 
 	/* ----------------------------------------------------------- */
