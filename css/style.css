@@ -3563,11 +3563,12 @@ header {
 }
 
 .header-one .logo-area {
-    padding: 2px 0;
+    padding: 0;
 }
 
 .header-one .logo-area img, .footer-logo {
     max-height: 72px;
+    background: #f27d33;
 }
 
 .header-right {
