@@ -1050,6 +1050,7 @@ ul.navbar-nav>li>a i {
     line-height: normal;
     text-transform: capitalize;
     margin-top: 5px;
+    color: black;
 }
 
 .header-get-a-quote .btn-primary:hover {
@@ -2960,7 +2961,7 @@ img.testimonial-thumb {
 /* Pricing featured */
 
 .ts-pricing-box.ts-pricing-featured .ts-pricing-header {
-    background: #ff9700;
+    background: #f27d33;
 }
 
 
