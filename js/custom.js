@@ -34,6 +34,7 @@ jQuery(function ($) {
 	/* ----------------------------------------------------------- */
 
 	$(window).on('scroll', function () {
+		console.log("$(window).scrollTop()", $(window).scrollTop())
 		if ($(window).scrollTop() > 70) {
 			$('.navdown, .header-two').addClass('navbar-fixed');
 		} else {

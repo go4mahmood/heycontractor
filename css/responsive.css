@@ -408,10 +408,6 @@
 		padding: 40px 0;
 	}
 
-	.logo-area .logo{
-		padding-bottom: 40px;
-	}
-
 	.header-two .logo {
    	padding: 15px 0 25px 15px;
 	}
@@ -436,10 +432,6 @@
 
 	ul.top-info-box > li.nav-search{
 		display: none;
-	}
-
-	.header-get-a-quote{
-		margin-top: 15px;
 	}
 
 
