@@ -37,8 +37,10 @@ jQuery(function ($) {
 		var scrollTopVal = ($(window).width() >= 992) ? 70 : 80;
 		if ($(window).scrollTop() > scrollTopVal) {
 			$('.navdown, .header-two').addClass('navbar-fixed');
+			$('#back-to-top').fadeIn();
 		} else {
 			$('.navdown, .header-two').removeClass('navbar-fixed');
+			$('#back-to-top').fadeOut();
 		}
 	});
 
@@ -349,27 +351,20 @@ jQuery(function ($) {
 
 	});
 
+	$(document).ready(function () {
+		$(document).on('click',"#back-to-top",function () {
+			/* ----------------------------------------------------------- */
+			/*  Back to top
+            /* ----------------------------------------------------------- */
 
-	/* ----------------------------------------------------------- */
-	/*  Back to top
-	/* ----------------------------------------------------------- */
+			// scroll body to 0px on click
+			$('#back-to-top').tooltip('hide');
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
 
-	$(window).scroll(function () {
-		if ($(this).scrollTop() > 50) {
-			$('#back-to-top').fadeIn();
-		} else {
-			$('#back-to-top').fadeOut();
-		}
-	});
-
-	// scroll body to 0px on click
-	$('#back-to-top').on('click', function () {
 		$('#back-to-top').tooltip('hide');
-		$('body,html').animate({
-			scrollTop: 0
-		}, 800);
-		return false;
 	});
-
-	$('#back-to-top').tooltip('hide');
 });
