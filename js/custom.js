@@ -34,8 +34,8 @@ jQuery(function ($) {
 	/* ----------------------------------------------------------- */
 
 	$(window).on('scroll', function () {
-		console.log("$(window).scrollTop()", $(window).scrollTop())
-		if ($(window).scrollTop() > 70) {
+		var scrollTopVal = ($(window).width() >= 992) ? 70 : 80;
+		if ($(window).scrollTop() > scrollTopVal) {
 			$('.navdown, .header-two').addClass('navbar-fixed');
 		} else {
 			$('.navdown, .header-two').removeClass('navbar-fixed');

@@ -89,11 +89,6 @@
 
 	/* Header */
 
-	.navbar-fixed{
-		position: relative;
-		animation:none;
-	}
-
 	.logo{
     	text-align: center;
     	width: 100%;
@@ -439,12 +434,6 @@
 
 
 	/* Navigation breakpoint */
-
-	.navbar-fixed{
-		position: relative;
-		animation:none;
-	}
-
 
    .navbar-toggle{
    	display: block;

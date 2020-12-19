@@ -716,6 +716,7 @@ ul.top-info-box li .info-box .info-box-title {
     margin-bottom: 8px;
     line-height: normal;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 ul.top-info-box li .info-box .info-box-subtitle {
@@ -770,12 +771,12 @@ ul.top-info-box>li.nav-search i {
 }
 
 .navbar-toggle {
-   float: left;
+    float: left;
     margin-top: 10px;
     padding: 8px;
     border-radius: 6px;
     margin-right: 5px;
-    background: #222;
+    background: #2229;
 }
 
 .navbar-toggle .icon-bar {
@@ -1049,9 +1050,10 @@ ul.navbar-nav>li>a i {
     font-size: 13px;
     border-radius: 3px;
     line-height: normal;
-    text-transform: capitalize;
     margin-top: 2px;
-    color: black;
+    text-transform: uppercase;
+    color: #f27d33;
+    letter-spacing: 0.125px;
 }
 
 .header-get-a-quote .btn-primary:hover {
@@ -3591,4 +3593,8 @@ header {
 .header-one .site-navigation .alternate-sub-header .header-get-a-quote .btn-primary {
     margin-top: 4px;
     padding: 12px 16px;
+}
+
+.call-to-action-btn .btn-dark {
+    color: #fff;
 }
