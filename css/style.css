@@ -773,9 +773,9 @@ ul.top-info-box>li.nav-search i {
    float: left;
     margin-top: 10px;
     padding: 8px;
-    border-radius: 0;
+    border-radius: 6px;
     margin-right: 5px;
-    background: #f27d33;
+    background: #222;
 }
 
 .navbar-toggle .icon-bar {
@@ -826,9 +826,9 @@ ul.navbar-nav>li>a {
     font-family: 'Montserrat', sans-serif;
     color: #333;
     text-rendering: optimizeLegibility;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: -.2px;
+    letter-spacing: 1px;
     font-size: 14px;
     margin: 0;
     line-height: 40px;
@@ -3531,7 +3531,7 @@ label {
     color: #fff;
 }
 
-.header-one ul.navbar-nav>li:hover>a, .header-one ul.navbar-nav>li.active>a{
+.header-one ul.navbar-nav>li:hover>a, .header-one ul.navbar-nav>li.active>a {
     color: #f27d33;
 }
 

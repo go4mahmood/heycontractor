@@ -18,6 +18,10 @@
 /* Medium Devices, Desktops */
 @media (min-width: 992px) and (max-width:1199px){
 
+	ul.top-info-box li.last{
+		margin-right: 0;
+	}
+
 	/* Header */
 
 	ul.navbar-nav > li {
@@ -97,7 +101,6 @@
 
 	.header-right {
 		float: none;
-		margin-top: 40px;
 		display: inline-block;
 	}
 
@@ -858,9 +861,17 @@
 
 }
 
-/* Custom, iPhone Retina */ 
-@media (max-width : 320px) and (max-width: 478px)  {
+@media (max-width: 991px) {
+	.header-one .site-navigation {
+		/*background: #23282d;*/
+		background: #f27d33;
+	}
 
+	.header-one ul.navbar-nav>li:hover>a, .header-one ul.navbar-nav>li.active>a{
+		color: #fff;
+	}
 
-
+	.header-one ul.navbar-nav>li:hover>a i.fa, .header-one ul.navbar-nav>li.active>a i.fa{
+		color: #fff;
+	}
 }
