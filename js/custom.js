@@ -34,7 +34,7 @@ jQuery(function ($) {
 	/* ----------------------------------------------------------- */
 
 	$(window).on('scroll', function () {
-		var scrollTopVal = ($(window).width() >= 992) ? 70 : 80;
+		var scrollTopVal = ($(window).width() >= 992) ? 142 : 80;
 		if ($(window).scrollTop() > scrollTopVal) {
 			$('.navdown, .header-two').addClass('navbar-fixed');
 			$('#back-to-top').fadeIn();
@@ -100,22 +100,6 @@ jQuery(function ($) {
 		pause: true,
 		interval: 100000,
 	});
-
-
-
-
-	/* ----------------------------------------------------------- */
-	/*  Site search
-	/* ----------------------------------------------------------- */
-
-	$('.nav-search').on('click', function () {
-		$('.search-block').fadeIn(350);
-	});
-
-	$('.search-close').on('click', function () {
-		$('.search-block').fadeOut(350);
-	});
-
 
 
 	/* ----------------------------------------------------------- */

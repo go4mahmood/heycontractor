@@ -3581,7 +3581,7 @@ header {
     color: black;
 }
 
-/* Visible xs header */
+/* Visible xs & sm header */
 .header-one .site-navigation .alternate-sub-header {
     margin-left: 8px;
 }
@@ -3597,4 +3597,71 @@ header {
 
 .call-to-action-btn .btn-dark {
     color: #fff;
+}
+
+.homepage-banner {
+    min-height: 700px;
+    background-image: url(../images/slider-main/bg2.jpg);
+    padding: 16px 0;
+}
+
+.homepage-banner .slide-sub-title {
+    text-align: center;
+    margin: 40px 0 48px 0;
+    letter-spacing: 0.75px;
+}
+
+.homepage-banner .panel-group .panel {
+    border: 0;
+    position: relative;
+}
+
+.homepage-banner .panel-group .panel .panel-heading {
+    padding: 0;
+}
+
+.homepage-banner .panel-group .panel .ts-pricing-box {
+    margin: 0;
+}
+
+.homepage-banner .panel-group .panel .panel-heading .panel-title, .homepage-banner .panel-group .panel .ts-pricing-features {
+    padding: 0;
+}
+
+.homepage-banner .panel-group .panel .panel-collapse {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.homepage-banner .panel-group .panel .panel-body {
+    padding: 0;
+}
+
+.homepage-banner .panel-group .panel .ts-pricing-features>ul>li {
+    padding: 16px 0;
+}
+
+.homepage-banner .panel-group .panel .ts-pricing-features>ul>li:last-child {
+    padding-bottom: 4px;
+    color: #f27d33;
+}
+
+.homepage-banner .panel-group .panel .ts-pricing-box .plan-action {
+    padding-bottom: 26px;
+}
+
+.homepage-banner .panel-group .panel .ts-pricing-box .plan-action .btn.btn-primary {
+    color: #fff;
+    letter-spacing: 0.75px;
+}
+
+.homepage-banner-cta {
+    color: #fff;
+    margin-top: 48px;
+}
+
+.homepage-banner-cta .btn-primary {
+    letter-spacing: 0.75px;
+    font-size: 18px;
 }

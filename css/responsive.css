@@ -863,4 +863,8 @@
 	.header-one ul.navbar-nav>li:hover>a i.fa, .header-one ul.navbar-nav>li.active>a i.fa{
 		color: #fff;
 	}
+
+	.homepage-banner {
+		min-height: 951px;
+	}
 }
