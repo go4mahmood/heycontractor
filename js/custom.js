@@ -30,21 +30,6 @@ jQuery(function ($) {
 	});
 
 	/* ----------------------------------------------------------- */
-	/*  Fixed header
-	/* ----------------------------------------------------------- */
-
-	$(window).on('scroll', function () {
-		var scrollTopVal = ($(window).width() >= 992) ? 142 : 80;
-		if ($(window).scrollTop() > scrollTopVal) {
-			$('.navdown, .header-two').addClass('navbar-fixed');
-			$('#back-to-top').fadeIn();
-		} else {
-			$('.navdown, .header-two').removeClass('navbar-fixed');
-			$('#back-to-top').fadeOut();
-		}
-	});
-
-	/* ----------------------------------------------------------- */
 	/*  Mobile Menu
 	/* ----------------------------------------------------------- */
 
@@ -336,6 +321,24 @@ jQuery(function ($) {
 	});
 
 	$(document).ready(function () {
+		/* ----------------------------------------------------------- */
+		/*  Fixed header
+        /* ----------------------------------------------------------- */
+
+		$(window).on('scroll', function () {
+			var scrollTopVal = ($(window).width() >= 992) ? 142 : 80;
+			if ($(window).scrollTop() > scrollTopVal) {
+				$('.navdown, .header-two').addClass('navbar-fixed');
+				$('#back-to-top').fadeIn();
+				$('#navbar-fixed-cta').show();
+			} else {
+				$('.navdown, .header-two').removeClass('navbar-fixed');
+				$('#back-to-top').fadeOut();
+				$('#navbar-fixed-cta').hide();
+			}
+		});
+
+
 		$(document).on('click',"#back-to-top",function () {
 			/* ----------------------------------------------------------- */
 			/*  Back to top
@@ -348,7 +351,6 @@ jQuery(function ($) {
 			}, 800);
 			return false;
 		});
-
 		$('#back-to-top').tooltip('hide');
 	});
 });

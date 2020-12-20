@@ -3581,6 +3581,10 @@ header {
     color: black;
 }
 
+.site-nav-inner, ul.navbar-nav{
+    width: 100%;
+}
+
 /* Visible xs & sm header */
 .header-one .site-navigation .alternate-sub-header {
     margin-left: 8px;
@@ -3664,4 +3668,15 @@ header {
 .homepage-banner-cta .btn-primary {
     letter-spacing: 0.75px;
     font-size: 18px;
+}
+
+#navbar-fixed-cta {
+    padding-right: 0;
+}
+
+#navbar-fixed-cta .header-get-a-quote .btn-primary {
+    color: white;
+    margin-top: 12px;
+    font-size: 14px;
+    margin-right: 0;
 }
