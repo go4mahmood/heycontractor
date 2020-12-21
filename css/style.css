@@ -3613,6 +3613,13 @@ header {
     text-align: center;
     margin: 40px 0 48px 0;
     letter-spacing: 0.75px;
+    font-size: 48px;
+}
+
+.homepage-banner .slide-title {
+    text-align: center;
+    margin: 40px 0 48px 0;
+    letter-spacing: 0.75px;
 }
 
 .homepage-banner .panel-group .panel {
@@ -3626,6 +3633,12 @@ header {
 
 .homepage-banner .panel-group .panel .ts-pricing-box {
     margin: 0;
+}
+
+.homepage-banner .panel-group .panel .ts-pricing-box .ts-pricing-price>small {
+    display: inline-block;
+    margin-left: 2px;
+    text-transform: capitalize;
 }
 
 .homepage-banner .panel-group .panel .panel-heading .panel-title, .homepage-banner .panel-group .panel .ts-pricing-features {
