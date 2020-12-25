@@ -407,7 +407,7 @@ blockquote {
 
 blockquote:before {
     content: "\f10d";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
     position: absolute;
     font-size: 28px;
     color: #E5E5E5;
@@ -489,7 +489,7 @@ cite {
 }
 
 .list-round li:before {
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
     content: "\f138";
     margin-right: 10px;
     color: #f27d33;
@@ -501,7 +501,7 @@ cite {
 }
 
 ul.list-arrow li:before {
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
     content: "\f105";
     margin-right: 10px;
     color: #f27d33;
@@ -509,7 +509,7 @@ ul.list-arrow li:before {
 }
 
 ul.list-check li:before {
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
     content: "\f00c";
     margin-right: 10px;
     color: #f27d33;
@@ -873,7 +873,7 @@ ul.navbar-nav>li>a i {
 .dropdown-submenu>a:after {
     display: block;
     content: "\f105";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
     float: right;
     margin-top: 0;
     margin-right: -5px;
@@ -2222,7 +2222,7 @@ h4.panel-title a.collapsed:before {
 
 h4.panel-title a:before,
 h4.panel-title a.collapsed:before {
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Free";
     position: absolute;
     z-index: 0;
     font-size: 14px;
@@ -2307,7 +2307,7 @@ h4.panel-title a.collapsed:before {
 
 .quote-item .quote-text:before {
     content: "\f10d";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
     position: absolute;
     font-size: 30px;
     left: 0;
@@ -3693,4 +3693,9 @@ header {
     margin-top: 12px;
     font-size: 14px;
     margin-right: 0;
+}
+
+.facts-area .facts-wrapper .ts-facts-img i {
+    font-size: 60px;
+    color: #f27d33;
 }
