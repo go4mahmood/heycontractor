@@ -3716,3 +3716,9 @@ header {
 .ts-pricing-box.ts-pricing-featured .ts-pricing-header {
     background: #f27d33;
 }
+
+.service-center-img {
+    max-height: 500px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
