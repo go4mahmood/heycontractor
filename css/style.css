@@ -3722,3 +3722,7 @@ header {
     margin: 0 auto;
     margin-top: -20px;
 }
+
+.project-area .isotope-item {
+    border: 1px solid #272c31;
+}
