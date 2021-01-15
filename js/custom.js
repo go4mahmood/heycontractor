@@ -19,14 +19,24 @@ jQuery(function ($) {
 	/*  Reusable includes
 	/* ----------------------------------------------------------- */
 
+	var urlPrefixMap = {
+		first: '../',
+		second: '../../'
+	}
+
 	$(function(){
-		var includes = $('[data-include]');
-		jQuery.each(includes, function(){
-			var file = 'includes/' + $(this).data('include') + '.html';
-			$(this).load(file, function() {
-				$(this).children(':first').unwrap();
+		var includes = $('[data-include]') || [];
+		if (includes.length) {
+			jQuery.each(includes, function(){
+				var file = 'includes/' + $(this).data('include') + '.html', relativeFromRoot = this.getAttribute('data-relative-from-root');
+				if (relativeFromRoot) {
+					file = urlPrefixMap[relativeFromRoot] + file;
+				}
+				$(this).load(file, function() {
+					$(this).children(':first').unwrap();
+				});
 			});
-		});
+		}
 	});
 
 	/* ----------------------------------------------------------- */

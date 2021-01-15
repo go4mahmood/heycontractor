@@ -3723,6 +3723,6 @@ header {
     margin-top: -20px;
 }
 
-.project-area .isotope-item {
+.project-area .isotope-item, .isotope .isotope-item {
     border: 1px solid #272c31;
 }
