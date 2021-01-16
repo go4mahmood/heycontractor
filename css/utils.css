@@ -1,3 +1,7 @@
 .cursor-default {
     cursor: default;
 }
+
+.m-r-xs {
+    margin-right: 4px;
+}
