@@ -3721,3 +3721,7 @@ header {
 .project-area .isotope-item, .isotope .isotope-item {
     border: 1px solid #272c31;
 }
+
+nav.site-navigation.navigation.navdown.navbar-fixed {
+    /*opacity: 0.75;*/
+}
