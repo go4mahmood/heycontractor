@@ -3637,11 +3637,11 @@ header {
     padding: 0;
 }
 
-.homepage-banner .panel-group .panel .ts-pricing-box {
+.ts-pricing-box {
     margin: 0;
 }
 
-.homepage-banner .panel-group .panel .ts-pricing-box .ts-pricing-price>small {
+.ts-pricing-box .ts-pricing-price>small {
     display: inline-block;
     margin-left: 2px;
     text-transform: capitalize;
@@ -3670,11 +3670,11 @@ header {
     color: #f27d33;
 }
 
-.homepage-banner .panel-group .panel .ts-pricing-box .plan-action {
+.ts-pricing-box .plan-action {
     padding-bottom: 26px;
 }
 
-.homepage-banner .panel-group .panel .ts-pricing-box .plan-action .btn.btn-primary {
+.ts-pricing-box .plan-action .btn.btn-primary {
     letter-spacing: 0.75px;
 }
 
